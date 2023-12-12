@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif
+}
+h2{
+  text-align: center;
+  font-family: 'Poppins', sans-serif
+}
+
+.container d5{
+  margin:5px;
+  padding:5px;
+}
+.why h3{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.why p{
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+}
+.testimonials{
+  text-align: center;
+  padding: 40px 0;
+}
+.inner{
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 0 20px;
+}
+.border{
+  width: 160px;
+  height: 5px;
+  background: lightseagreen;
+  margin: 26px auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial{
+  background: dimgray;
+  padding: 30px;
+}
+.testimonial img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 600px){.col{
+  flex: 100%;
+  max-width: 100%;
+}
+}
